@@ -24,20 +24,20 @@ RustyMail is a fully open-source, asynchronous email server solution designed to
 * SMTP and IMAP settings: Edit the config.toml file to adjust the SMTP and IMAP server settings according to your needs.
 * Database: Configure SurrealDB connection strings within the config.toml.
 
-# Example command to send an email
+### Example command to send an email
 
 cargo run --bin rustymail-cli -- send --from sender@example.com --to receiver@example.com --subject "Test Email" --body "Hello, this is a test email from AsyncRustMail."
 
-Contributing
+## Contributing
 
 We welcome contributions from the community, whether it's adding new features, improving documentation, or reporting bugs. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for more details on how to contribute.
 
-Roadmap
+## Roadmap
 
 * SMTP and IMAP implementation
 * Email tracking and analytics
 * Advanced filtering and spam detection
 
-License
+## License
 
 This project is dual-licensed under the MIT License & Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details.
