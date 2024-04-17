@@ -6,3 +6,18 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+async-imap = "0.9.7"
+lettre = "0.11.6"
+
+
+[lib]
+name = "rustymail_lib"
+path = "src/lib"
+
+[[bin]]
+name = "rustymail"
+path = "src/bin/rustymail.rs"
+
+[[bin]]
+name = "rustymail-cli"
+path = "src/bin/rustymail_cli.rs"
